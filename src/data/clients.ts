@@ -1,9 +1,30 @@
 import { Client } from '../types';
 
 export const clientsData: Client[] = [
+
   { name: 'Alotta Fudge', city: 'New York', birthday: '1995-03-01' },
-  { name: 'Anita Bath', city: 'Jacksonville', birthday: '1980-05-07' },
-  { name: 'Paige Turner', city: 'Washington', birthday: '1975-02-13' },
-  { name: 'Stan Still', city: 'Dallas', birthday: '1952-10-31' },
+  { name: 'Adam Kouanda', city: 'Ouagadougou', birthday: '1998-07-10' },
+  { name: 'Awa Sawadogo', city: 'Bobo-Dioulasso', birthday: '2002-10-23' },
+  { name: 'Michael Lane', city: 'Ouagadougou', birthday: '1989-03-22' },
+  { name: 'Inès Kaboré', city: 'Ouagadougou', birthday: '1990-02-15' },
+  { name: 'Antoine Traoré', city: 'Bobo-Dioulasso', birthday: '1999-12-06' },
   { name: 'Terry Aki', city: 'Columbus', birthday: '1960-01-03' },
+  { name: 'Nadia Zerbo', city: 'Ouagadougou', birthday: '2005-01-30' },
+  { name: 'Anita Bath', city: 'Jacksonville', birthday: '1980-05-07' },
+  { name: 'Brigitte Ouedraogo', city: 'Bobo-Dioulasso', birthday: '1987-07-09' },
+  { name: 'Mariam Diallo', city: 'Bobo-Dioulasso', birthday: '1996-08-19' },
+  { name: 'Stan Still', city: 'Dallas', birthday: '1952-10-31' },
+  { name: 'Moussa Coulibaly', city: 'Ouagadougou', birthday: '2003-11-11' },
+  { name: 'Abdoulaye Kinda', city: 'Bobo-Dioulasso', birthday: '2001-09-25' },
+  { name: 'Paige Turner', city: 'Washington', birthday: '1975-02-13' },
+  { name: 'Issouf Ouedraogo', city: 'Ouagadougou', birthday: '1997-06-03' },
+  { name: 'Salmata Tapsoba', city: 'Bobo-Dioulasso', birthday: '2000-04-17' },
+  { name: 'Desmond Carter', city: 'Dallas', birthday: '1990-09-14' },
+  { name: 'Sarah Gomez', city: 'Washington', birthday: '2004-12-27' },
+  { name: 'Laura Bennett', city: 'Bobo-Dioulasso', birthday: '1995-10-07' },
+  { name: 'Eric Smith', city: 'Ouagadougou', birthday: '2001-02-11' },
+  { name: 'Fanta Sédogo', city: 'Ouagadougou', birthday: '1994-05-15' },
+  { name: 'Amadou Kaboré', city: 'Ouagadougou', birthday: '2007-08-05' },
+  { name: 'Bryan Rodgers', city: 'Jacksonville', birthday: '2002-06-21' },
+  { name: 'Lucie Darga', city: 'Bobo-Dioulasso', birthday: '1992-11-14' },
 ];

@@ -6,7 +6,6 @@ interface ClientsListProps {
   oldestClients: Record<string, Client>;
 }
 
-// Style de conteneur "glass"
 const tableContainerStyle: React.CSSProperties = {
   background: 'rgba(255, 255, 255, 0.2)',
   backdropFilter: 'blur(10px)',
@@ -15,6 +14,7 @@ const tableContainerStyle: React.CSSProperties = {
   border: '1px solid rgba(255, 255, 255, 0.2)',
   borderRadius: '12px',
   overflow: 'hidden',
+  marginTop: '16px',
 };
 
 const ClientsList: React.FC<ClientsListProps> = ({ clients, oldestClients }) => {
@@ -34,9 +34,9 @@ const ClientsList: React.FC<ClientsListProps> = ({ clients, oldestClients }) => 
               oldestClients[client.city] &&
               oldestClients[client.city].name === client.name;
 
-            // Coloration si c’est le plus âgé
             const rowStyle: React.CSSProperties = {
               backgroundColor: isOldest ? '#cceeff' : 'transparent',
+              fontWeight: 'bold',
             };
 
             return (

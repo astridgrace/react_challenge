@@ -16,7 +16,7 @@ body {
 	border: 1px solid #ccc;
   }
   .myBackground {
-    background: url('../assets/background.jpeg') no-repeat center center fixed;
+    background: url('../src/assets/background.png') no-repeat center center fixed;
     background-size: cover;
   }
   
