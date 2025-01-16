@@ -138,7 +138,7 @@ const FilterBar: React.FC<FilterBarProps> = ({
           value={searchName}
           onChange={(e) => setSearchName(e.target.value)}
           style={inputStyle}
-          placeholder="Rechercher..."
+          placeholder="Search..."
         />
       </label>
 
